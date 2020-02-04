@@ -13,7 +13,7 @@ git fetch
 ```bash
 git add <file>
 ```
-or
+or add all changes
 ```bash
 git add .
 ```
