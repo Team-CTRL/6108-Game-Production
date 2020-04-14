@@ -48,4 +48,8 @@ void ATower_pawn::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 }
 
-void
+void ATower_pawn::TowerRising()
+{
+	Overlap = true;
+}
+

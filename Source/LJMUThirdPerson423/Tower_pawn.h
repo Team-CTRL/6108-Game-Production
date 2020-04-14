@@ -32,4 +32,10 @@ public:
 	UPROPERTY(EditAnywhere, Category = "Location")
 		FVector NewLocation;
 
-	UFUNCTION(BlueprintCallable, 
+	UFUNCTION(BlueprintCallable, Category = "NewLocation")
+		void TowerRising();
+
+	bool bGoingUp = true;
+	bool Overlap = true;
+
+};
